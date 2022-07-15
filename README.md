@@ -1,7 +1,15 @@
+<div align="center">
+
+![ft_printfn](https://user-images.githubusercontent.com/3737837/179274741-9122c328-d18f-4501-bda8-1c48098a60b8.png)
+
 # ft_print 
 
-The goal of this project is pretty straightforward. You will recode printf().
-You will mainly learn about using a variable number of arguments.
+</div>
+
+### 🌠 The goal of this project is pretty straightforward. You will recode printf().
+
+### You will mainly learn about using a variable number of arguments.
+
 ## Chalenges 
 
 - [ ] variadic functions
