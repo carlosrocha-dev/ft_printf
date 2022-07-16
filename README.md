@@ -13,9 +13,9 @@
 ## Chalenges
 
 - [ ] variadic functions
-- [ ] Create Makefile file
+- [x] Create Makefile file
 - [ ] Create mandatory files
-- [ ] Create a prototype function on ft_printf.h "int ft_printf(const char *, ...);"
+- [x] Create a prototype function on ft_printf.h "int ft_printf(const char *, ...);"
  ## Requiriments˜`
 
 - [ ] Don’t implement the buffer management of the original printf().
@@ -48,6 +48,17 @@ under all conversions.
 
 
 ## References
+https://www.geeksforgeeks.org/variadic-functions-in-c/
+https://wagnergaspar.com/procurando-caracteres-em-uma-string-com-as-funcoes-strchr-e-strrchr/
+https://en.wikipedia.org/wiki/Variadic_function
 
 ### - Variadic Functions
-	
+
+###
+```C
+int ft_printf(const char *str_result, ...)
+{
+	// str_result show the result formated of string
+
+}
+```
