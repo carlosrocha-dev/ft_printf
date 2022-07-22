@@ -4,6 +4,9 @@
 
 # ft_print
 
+
+[![caalbert's 42 ft_printf Score](https://badge42.vercel.app/api/v2/cl5g4kxwa002509l0nrey4oz0/project/2682633)](https://github.com/JaeSeoKim/badge42)
+
 </div>
 
 ### 🌠 The goal of this project is pretty straightforward. You will recode printf().
@@ -13,9 +16,9 @@
 ## Chalenges
 
 - [ ] variadic functions
-- [x] Create Makefile file
+- [ ] Create Makefile file
 - [ ] Create mandatory files
-- [x] Create a prototype function on ft_printf.h "int ft_printf(const char *, ...);"
+- [ ] Create a prototype function on ft_printf.h "int ft_printf(const char *, ...);"
  ## Requiriments˜`
 
 - [ ] Don’t implement the buffer management of the original printf().
@@ -48,17 +51,6 @@ under all conversions.
 
 
 ## References
-https://www.geeksforgeeks.org/variadic-functions-in-c/
-https://wagnergaspar.com/procurando-caracteres-em-uma-string-com-as-funcoes-strchr-e-strrchr/
-https://en.wikipedia.org/wiki/Variadic_function
 
 ### - Variadic Functions
 
-###
-```C
-int ft_printf(const char *str_result, ...)
-{
-	// str_result show the result formated of string
-
-}
-```
