@@ -15,10 +15,10 @@
 
 ## Chalenges
 
-- [ ] variadic functions
-- [ ] Create Makefile file
+- [x] variadic functions
+- [x] Create Makefile file
 - [ ] Create mandatory files
-- [ ] Create a prototype function on ft_printf.h "int ft_printf(const char *, ...);"
+- [x] Create a prototype function on ft_printf.h "int ft_printf(const char *, ...);"
  ## Requiriments˜`
 
 - [ ] Don’t implement the buffer management of the original printf().
@@ -53,4 +53,7 @@ under all conversions.
 ## References
 
 ### - Variadic Functions
+
+
+
 
