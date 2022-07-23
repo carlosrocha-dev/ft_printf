@@ -1,19 +1,39 @@
 NAME		= libftprintf.a
 
-all:		$(NAME)
+CC_FLAGS	= -Wall -Wextra -Werror
+
+LIBFT		= ./libft/libft.a
+
+SRCS		= main.c
+
+OBJS		= $(SRCS:.c=.o)
+
+@all:		$(NAME)
+				make clean
+
+$(NAME): $(OBJS) $(LIBFT)
+	cp libft/libft.a $(NAME)
+	ar -rcs $(NAME) $(OBJS)
+
+$(LIBFT):
+		make -C ./libft
+
+$(OBJS):
+		cc $(CC_FLAGS) -I./includes -c $(addprefix ./files/,$(SRCS))
 
  clean:
-			rm -f $(NAME)
+			rm -f $(OBJS)
 
  fclean:	clean
- 			rm -f $(NAME)
+ 			# ./libft
+			rm -f $(NAME)
 
- re:		fclean all
+ re:		all
 
 git:
 		@git status
 		@git add .
-		@git commit -m "Automatic commit."
+		@git commit -m "backup commit."
 		@git push
 
  .PHONY: all clean fclean re git

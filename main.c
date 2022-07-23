@@ -6,12 +6,13 @@
 /*   By: caalbert <caalbert@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/15 15:53:01 by caalbert          #+#    #+#             */
-/*   Updated: 2022/07/22 21:41:58 by caalbert         ###   ########.fr       */
+/*   Updated: 2022/07/23 00:46:40 by caalbert         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 #include <unistd.h>
+#include "libft/libft.h"
 // #include "includes/test.h"
 
 /*
@@ -19,12 +20,6 @@ Flags:
 	original -> to compare with printf
 
 */
-
-int	write_str(const char *string, int length)
-{
-	write(STDOUT_FILENO, string, length);
-	return (length);
-}
 
 int	main(int argc, char *argv[])
 {
@@ -39,7 +34,7 @@ int	main(int argc, char *argv[])
 	{
 
 		printf("entrou %s\n", argv[1]);//
-		write_str(argv[1], sizeof(argv[1]));
+		ft_putstr_fd(STDIN_FILENO, sizeof(argv[1]));
 		// if (flag == "original")
 		// {
 			printf("Return argC: %d\n", argc);
