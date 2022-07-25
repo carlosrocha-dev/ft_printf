@@ -13,13 +13,23 @@
 
 ### You will mainly learn about using a variable number of arguments.
 
+### Prototype
+
+int ft_printf(const char *str, ... );
+
+A format specifier follows this prototype:
+
+
+%[flags][width][.precision][length]specifier
+
+
 ## Chalenges
 
 - [x] variadic functions
 - [x] Create Makefile file
 - [ ] Create mandatory files
 - [x] Create a prototype function on ft_printf.h "int ft_printf(const char *, ...);"
- ## Requiriments˜`
+ ## Requiriments
 
 - [ ] Don’t implement the buffer management of the original printf().
 - [ ] Your function has to handle the following conversions: cspdiuxX%
@@ -51,6 +61,10 @@ under all conversions.
 
 
 ## References
+
+### Manual of printf
+
+https://cplusplus.com/reference/cstdio/printf/
 
 ### - Variadic Functions
 
